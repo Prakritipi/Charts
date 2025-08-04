@@ -18,7 +18,7 @@ class BarChart extends Component {
             series: [
                 {
                     name: "series-1",
-                    data: [30, 40, 45, 50, 49, 60, 70, 91]
+                    data: [30, 40, 45, 50, 49, 60, 70, 91,100]
                 }
             ]
         };
@@ -29,6 +29,7 @@ class BarChart extends Component {
             <div className="app">
                 <div className="row">
                     <div className="mixed-chart">
+                        <h1 className="text-2xl font-bold"> Basic Bar Chart</h1>
                         <Chart
                             options={this.state.options}
                             series={this.state.series}
